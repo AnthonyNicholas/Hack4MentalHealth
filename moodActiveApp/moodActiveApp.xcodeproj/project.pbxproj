@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F124401A2037E49A003B304C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12440192037E49A003B304C /* AppDelegate.swift */; };
+		F124401C2037E49A003B304C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124401B2037E49A003B304C /* ViewController.swift */; };
+		F124401F2037E49A003B304C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F124401D2037E49A003B304C /* Main.storyboard */; };
+		F12440212037E49A003B304C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F12440202037E49A003B304C /* Assets.xcassets */; };
+		F12440242037E49A003B304C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12440222037E49A003B304C /* LaunchScreen.storyboard */; };
+		F124402F2037E49A003B304C /* moodActiveAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F124402E2037E49A003B304C /* moodActiveAppTests.swift */; };
+		F124403A2037E49A003B304C /* moodActiveAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12440392037E49A003B304C /* moodActiveAppUITests.swift */; };
+		F124404A2037E566003B304C /* MoodActiveLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = F12440492037E566003B304C /* MoodActiveLogo.png */; };
+		F124404C2037E627003B304C /* logo-moodactive-200px.png in Resources */ = {isa = PBXBuildFile; fileRef = F124404B2037E627003B304C /* logo-moodactive-200px.png */; };
+		F12440542037F531003B304C /* tennis.png in Resources */ = {isa = PBXBuildFile; fileRef = F12440532037F531003B304C /* tennis.png */; };
+		F12440562037F534003B304C /* yoga1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F12440552037F534003B304C /* yoga1.jpg */; };
+		F124405A2037F8BD003B304C /* BookIntoClass.png in Resources */ = {isa = PBXBuildFile; fileRef = F12440592037F8BC003B304C /* BookIntoClass.png */; };
+		F124405C2037FA0B003B304C /* GreenTickIcon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F124405B2037FA0A003B304C /* GreenTickIcon.jpeg */; };
+		F124405E2037FA63003B304C /* RedCrossIcon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F124405D2037FA63003B304C /* RedCrossIcon.jpeg */; };
+		F12440642038E8A5003B304C /* mainCal.png in Resources */ = {isa = PBXBuildFile; fileRef = F12440632038E8A4003B304C /* mainCal.png */; };
+		F12440662038EE19003B304C /* CamPic.png in Resources */ = {isa = PBXBuildFile; fileRef = F12440652038EE19003B304C /* CamPic.png */; };
+		F12440682038F263003B304C /* CamHeadShot.png in Resources */ = {isa = PBXBuildFile; fileRef = F12440672038F262003B304C /* CamHeadShot.png */; };
+		F124406A2038F704003B304C /* MoodActiveImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F12440692038F704003B304C /* MoodActiveImage.jpg */; };
+		F124406C2038F893003B304C /* radio_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = F124406B2038F892003B304C /* radio_empty.png */; };
+		F124406E2038F897003B304C /* radio_full.png in Resources */ = {isa = PBXBuildFile; fileRef = F124406D2038F896003B304C /* radio_full.png */; };
+		F12440702038FB87003B304C /* woman_photo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F124406F2038FB87003B304C /* woman_photo.jpeg */; };
+		F12440722038FC44003B304C /* ManPhoto.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F12440712038FC43003B304C /* ManPhoto.jpeg */; };
+		F12440742038FF30003B304C /* MoodStatsGraph.png in Resources */ = {isa = PBXBuildFile; fileRef = F12440732038FF2F003B304C /* MoodStatsGraph.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F124402B2037E49A003B304C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F124400E2037E49A003B304C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F12440152037E49A003B304C;
+			remoteInfo = moodActiveApp;
+		};
+		F12440362037E49A003B304C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F124400E2037E49A003B304C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F12440152037E49A003B304C;
+			remoteInfo = moodActiveApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F12440162037E49A003B304C /* moodActiveApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moodActiveApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12440192037E49A003B304C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F124401B2037E49A003B304C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F124401E2037E49A003B304C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F12440202037E49A003B304C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F12440232037E49A003B304C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F12440252037E49A003B304C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F124402A2037E49A003B304C /* moodActiveAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moodActiveAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F124402E2037E49A003B304C /* moodActiveAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moodActiveAppTests.swift; sourceTree = "<group>"; };
+		F12440302037E49A003B304C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F12440352037E49A003B304C /* moodActiveAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moodActiveAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12440392037E49A003B304C /* moodActiveAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moodActiveAppUITests.swift; sourceTree = "<group>"; };
+		F124403B2037E49A003B304C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F12440492037E566003B304C /* MoodActiveLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MoodActiveLogo.png; sourceTree = "<group>"; };
+		F124404B2037E627003B304C /* logo-moodactive-200px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-moodactive-200px.png"; sourceTree = "<group>"; };
+		F12440532037F531003B304C /* tennis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tennis.png; sourceTree = "<group>"; };
+		F12440552037F534003B304C /* yoga1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = yoga1.jpg; path = ../../Desktop/yoga1.jpg; sourceTree = "<group>"; };
+		F12440592037F8BC003B304C /* BookIntoClass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BookIntoClass.png; sourceTree = "<group>"; };
+		F124405B2037FA0A003B304C /* GreenTickIcon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GreenTickIcon.jpeg; sourceTree = "<group>"; };
+		F124405D2037FA63003B304C /* RedCrossIcon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RedCrossIcon.jpeg; sourceTree = "<group>"; };
+		F12440632038E8A4003B304C /* mainCal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainCal.png; sourceTree = "<group>"; };
+		F12440652038EE19003B304C /* CamPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CamPic.png; sourceTree = "<group>"; };
+		F12440672038F262003B304C /* CamHeadShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CamHeadShot.png; sourceTree = "<group>"; };
+		F12440692038F704003B304C /* MoodActiveImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MoodActiveImage.jpg; sourceTree = "<group>"; };
+		F124406B2038F892003B304C /* radio_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_empty.png; sourceTree = "<group>"; };
+		F124406D2038F896003B304C /* radio_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_full.png; sourceTree = "<group>"; };
+		F124406F2038FB87003B304C /* woman_photo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woman_photo.jpeg; sourceTree = "<group>"; };
+		F12440712038FC43003B304C /* ManPhoto.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ManPhoto.jpeg; sourceTree = "<group>"; };
+		F12440732038FF2F003B304C /* MoodStatsGraph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MoodStatsGraph.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F12440132037E49A003B304C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12440272037E49A003B304C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12440322037E49A003B304C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F124400D2037E49A003B304C = {
+			isa = PBXGroup;
+			children = (
+				F12440182037E49A003B304C /* moodActiveApp */,
+				F124402D2037E49A003B304C /* moodActiveAppTests */,
+				F12440382037E49A003B304C /* moodActiveAppUITests */,
+				F12440172037E49A003B304C /* Products */,
+				F12440732038FF2F003B304C /* MoodStatsGraph.png */,
+				F12440692038F704003B304C /* MoodActiveImage.jpg */,
+				F12440672038F262003B304C /* CamHeadShot.png */,
+				F12440492037E566003B304C /* MoodActiveLogo.png */,
+				F124404B2037E627003B304C /* logo-moodactive-200px.png */,
+				F12440552037F534003B304C /* yoga1.jpg */,
+				F12440532037F531003B304C /* tennis.png */,
+				F12440592037F8BC003B304C /* BookIntoClass.png */,
+				F124405B2037FA0A003B304C /* GreenTickIcon.jpeg */,
+				F124405D2037FA63003B304C /* RedCrossIcon.jpeg */,
+				F12440632038E8A4003B304C /* mainCal.png */,
+				F12440712038FC43003B304C /* ManPhoto.jpeg */,
+				F12440652038EE19003B304C /* CamPic.png */,
+				F124406B2038F892003B304C /* radio_empty.png */,
+				F124406D2038F896003B304C /* radio_full.png */,
+				F124406F2038FB87003B304C /* woman_photo.jpeg */,
+			);
+			sourceTree = "<group>";
+		};
+		F12440172037E49A003B304C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F12440162037E49A003B304C /* moodActiveApp.app */,
+				F124402A2037E49A003B304C /* moodActiveAppTests.xctest */,
+				F12440352037E49A003B304C /* moodActiveAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F12440182037E49A003B304C /* moodActiveApp */ = {
+			isa = PBXGroup;
+			children = (
+				F12440192037E49A003B304C /* AppDelegate.swift */,
+				F124401B2037E49A003B304C /* ViewController.swift */,
+				F124401D2037E49A003B304C /* Main.storyboard */,
+				F12440202037E49A003B304C /* Assets.xcassets */,
+				F12440222037E49A003B304C /* LaunchScreen.storyboard */,
+				F12440252037E49A003B304C /* Info.plist */,
+			);
+			path = moodActiveApp;
+			sourceTree = "<group>";
+		};
+		F124402D2037E49A003B304C /* moodActiveAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F124402E2037E49A003B304C /* moodActiveAppTests.swift */,
+				F12440302037E49A003B304C /* Info.plist */,
+			);
+			path = moodActiveAppTests;
+			sourceTree = "<group>";
+		};
+		F12440382037E49A003B304C /* moodActiveAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F12440392037E49A003B304C /* moodActiveAppUITests.swift */,
+				F124403B2037E49A003B304C /* Info.plist */,
+			);
+			path = moodActiveAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F12440152037E49A003B304C /* moodActiveApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F124403E2037E49A003B304C /* Build configuration list for PBXNativeTarget "moodActiveApp" */;
+			buildPhases = (
+				F12440122037E49A003B304C /* Sources */,
+				F12440132037E49A003B304C /* Frameworks */,
+				F12440142037E49A003B304C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = moodActiveApp;
+			productName = moodActiveApp;
+			productReference = F12440162037E49A003B304C /* moodActiveApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F12440292037E49A003B304C /* moodActiveAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F12440412037E49A003B304C /* Build configuration list for PBXNativeTarget "moodActiveAppTests" */;
+			buildPhases = (
+				F12440262037E49A003B304C /* Sources */,
+				F12440272037E49A003B304C /* Frameworks */,
+				F12440282037E49A003B304C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F124402C2037E49A003B304C /* PBXTargetDependency */,
+			);
+			name = moodActiveAppTests;
+			productName = moodActiveAppTests;
+			productReference = F124402A2037E49A003B304C /* moodActiveAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F12440342037E49A003B304C /* moodActiveAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F12440442037E49A003B304C /* Build configuration list for PBXNativeTarget "moodActiveAppUITests" */;
+			buildPhases = (
+				F12440312037E49A003B304C /* Sources */,
+				F12440322037E49A003B304C /* Frameworks */,
+				F12440332037E49A003B304C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F12440372037E49A003B304C /* PBXTargetDependency */,
+			);
+			name = moodActiveAppUITests;
+			productName = moodActiveAppUITests;
+			productReference = F12440352037E49A003B304C /* moodActiveAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F124400E2037E49A003B304C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Anthony Nicholas";
+				TargetAttributes = {
+					F12440152037E49A003B304C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F12440292037E49A003B304C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F12440152037E49A003B304C;
+					};
+					F12440342037E49A003B304C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F12440152037E49A003B304C;
+					};
+				};
+			};
+			buildConfigurationList = F12440112037E49A003B304C /* Build configuration list for PBXProject "moodActiveApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F124400D2037E49A003B304C;
+			productRefGroup = F12440172037E49A003B304C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F12440152037E49A003B304C /* moodActiveApp */,
+				F12440292037E49A003B304C /* moodActiveAppTests */,
+				F12440342037E49A003B304C /* moodActiveAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F12440142037E49A003B304C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12440242037E49A003B304C /* LaunchScreen.storyboard in Resources */,
+				F124405C2037FA0B003B304C /* GreenTickIcon.jpeg in Resources */,
+				F124406E2038F897003B304C /* radio_full.png in Resources */,
+				F12440662038EE19003B304C /* CamPic.png in Resources */,
+				F12440212037E49A003B304C /* Assets.xcassets in Resources */,
+				F124404A2037E566003B304C /* MoodActiveLogo.png in Resources */,
+				F124405E2037FA63003B304C /* RedCrossIcon.jpeg in Resources */,
+				F12440722038FC44003B304C /* ManPhoto.jpeg in Resources */,
+				F12440702038FB87003B304C /* woman_photo.jpeg in Resources */,
+				F12440742038FF30003B304C /* MoodStatsGraph.png in Resources */,
+				F124401F2037E49A003B304C /* Main.storyboard in Resources */,
+				F124405A2037F8BD003B304C /* BookIntoClass.png in Resources */,
+				F12440562037F534003B304C /* yoga1.jpg in Resources */,
+				F12440682038F263003B304C /* CamHeadShot.png in Resources */,
+				F124406C2038F893003B304C /* radio_empty.png in Resources */,
+				F12440542037F531003B304C /* tennis.png in Resources */,
+				F12440642038E8A5003B304C /* mainCal.png in Resources */,
+				F124406A2038F704003B304C /* MoodActiveImage.jpg in Resources */,
+				F124404C2037E627003B304C /* logo-moodactive-200px.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12440282037E49A003B304C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12440332037E49A003B304C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F12440122037E49A003B304C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F124401C2037E49A003B304C /* ViewController.swift in Sources */,
+				F124401A2037E49A003B304C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12440262037E49A003B304C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F124402F2037E49A003B304C /* moodActiveAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12440312037E49A003B304C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F124403A2037E49A003B304C /* moodActiveAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F124402C2037E49A003B304C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F12440152037E49A003B304C /* moodActiveApp */;
+			targetProxy = F124402B2037E49A003B304C /* PBXContainerItemProxy */;
+		};
+		F12440372037E49A003B304C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F12440152037E49A003B304C /* moodActiveApp */;
+			targetProxy = F12440362037E49A003B304C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F124401D2037E49A003B304C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F124401E2037E49A003B304C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F12440222037E49A003B304C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F12440232037E49A003B304C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F124403C2037E49A003B304C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F124403D2037E49A003B304C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F124403F2037E49A003B304C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J6YSX7YN3;
+				INFOPLIST_FILE = moodActiveApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RMIT.moodActiveApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F12440402037E49A003B304C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J6YSX7YN3;
+				INFOPLIST_FILE = moodActiveApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RMIT.moodActiveApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F12440422037E49A003B304C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J6YSX7YN3;
+				INFOPLIST_FILE = moodActiveAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RMIT.moodActiveAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moodActiveApp.app/moodActiveApp";
+			};
+			name = Debug;
+		};
+		F12440432037E49A003B304C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J6YSX7YN3;
+				INFOPLIST_FILE = moodActiveAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RMIT.moodActiveAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moodActiveApp.app/moodActiveApp";
+			};
+			name = Release;
+		};
+		F12440452037E49A003B304C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J6YSX7YN3;
+				INFOPLIST_FILE = moodActiveAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RMIT.moodActiveAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = moodActiveApp;
+			};
+			name = Debug;
+		};
+		F12440462037E49A003B304C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J6YSX7YN3;
+				INFOPLIST_FILE = moodActiveAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RMIT.moodActiveAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = moodActiveApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F12440112037E49A003B304C /* Build configuration list for PBXProject "moodActiveApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F124403C2037E49A003B304C /* Debug */,
+				F124403D2037E49A003B304C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F124403E2037E49A003B304C /* Build configuration list for PBXNativeTarget "moodActiveApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F124403F2037E49A003B304C /* Debug */,
+				F12440402037E49A003B304C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F12440412037E49A003B304C /* Build configuration list for PBXNativeTarget "moodActiveAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12440422037E49A003B304C /* Debug */,
+				F12440432037E49A003B304C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F12440442037E49A003B304C /* Build configuration list for PBXNativeTarget "moodActiveAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12440452037E49A003B304C /* Debug */,
+				F12440462037E49A003B304C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F124400E2037E49A003B304C /* Project object */;
+}
